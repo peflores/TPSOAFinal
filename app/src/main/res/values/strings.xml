@@ -1,4 +1,7 @@
 <resources>
-    <string name="app_name">TPSOAFinal</string>
-    <string name="action_settings">Settings</string>
+    <string name="app_name">App Corte de Luz</string>
+    <string name="tIp">IP:</string>
+    <string name="tPuerto">Puerto:</string>
+    <string name="lblConfiguracion">Configuracion</string>
+    <string name="lblEmpezar">Empezar</string>
 </resources>
