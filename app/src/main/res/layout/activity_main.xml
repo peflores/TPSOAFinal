@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:fitsSystemWindows="true"
+
     tools:context="trainner.soa.com.tpsoafinal.MainActivity"
     android:background="@drawable/androidfondo">
 
@@ -113,4 +113,32 @@
         android:layout_toEndOf="@+id/tableLayout"
         android:layout_alignTop="@+id/tableLayout"
         android:layout_alignBottom="@+id/tableLayout"  />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tableLayout"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/linearLayout2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/luz"
+            android:textAlignment="center"
+            android:textColor="#011efd"
+            android:textSize="@dimen/abc_text_size_display_1_material"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/temperatura"
+            android:textAlignment="center"
+            android:textColor="#030cfe"
+            android:textStyle="bold|normal"
+            android:textSize="@dimen/abc_text_size_display_1_material" />
+    </LinearLayout>
+
 </RelativeLayout>
